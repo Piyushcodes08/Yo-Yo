@@ -28,9 +28,10 @@ const Footer = () => {
           <div id="icon-box" className='bg-[#a39446] p-4 rounded-full cursor-pointer hover:bg-black hover:text-white duration-300 hover:scale-110 transform transition-transform'>
             < FaGithub className="size-7 fill-white" />
           </div>
-          <div id="icon-box" className='bg-[#a39446] p-4 rounded-full cursor-pointer hover:bg-black hover:text-white duration-300 hover:scale-110 transform transition-transform'>
-            < FaXTwitter className="size-7 fill-white" />
-          </div>
+          <div id="icon-box" className="bg-[#a39446] p-3 sm:p-4 rounded-full cursor-pointer hover:bg-black hover:text-white duration-300 hover:scale-110 transform transition-transform">
+  <FaXTwitter className="size-5 sm:size-7 fill-white" />
+</div>
+
         </div>
         <div className="text-center text-gray-500 text-xs md:text-sm border-t border-gray-600 pt-6">
         © {new Date().getFullYear()} Piyush.codes08. All rights reserved.

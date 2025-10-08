@@ -26,7 +26,7 @@ const Home = () => {
         <>
             <section id='hero' className='w-full md:px-[120px] px-10 flex flex-col md:flex-row justify-center items-center gap-20'>
                 <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
-                    <h1 data-aos="zoom-in" className='text-2xl text-black font-semibold'>
+                    <h1 data-aos="zoom-in" className='text-2xl text-black font-semibold pt-6 sm:pt-0'>
                         WELCOME TO
                     </h1>
                     <h1 data-aos="zoom-in" className='text-6xl text-black font-bold'>Hair Rap By Yo-Yo</h1>
