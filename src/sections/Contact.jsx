@@ -20,7 +20,7 @@ const Contact = () => {
 <div data-aos="zoom-in" id='img-box' className='w-full bg-cover bg-center h-[700px] ' style={{backgroundImage: `url(${contacting})`}}>
 </div>
 <div id='form-box' className='bg-gray-900 p-16 flex flex-col justify-center items-center gap-12 w-full h-[700px]'>
-<h1 data-aos="zoom-in" data-aos-delay="200" className="text-white text-6xl font-bold text-center ">Contact Us</h1>
+<h1 data-aos="zoom-in" data-aos-delay="200" className="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center ">Contact Us</h1>
 <div data-aos="zoom-out" data-aos-delay="400" id='form' className='w-full flex flex-col justify-center items-center gap-4 '>
 <input type="text" className=' bg-white w-full p-3 text-black font-semibold' placeholder='Enter your full name' />
 <input type="text" className=' bg-white w-full p-3 text-black font-semibold' placeholder='Enter your valid email address' />
