@@ -32,12 +32,16 @@ const Footer = () => {
             < FaXTwitter className="size-7 fill-white" />
           </div>
         </div>
+        <div className="text-center text-gray-500 text-xs md:text-sm border-t border-gray-600 pt-6">
+        © {new Date().getFullYear()} Piyush.codes08. All rights reserved.
+      </div>
       </section>
       <div data-aos="slide-right" data-aos-delay="200" id='icon-box' className='bg-[#a69f7d] p-4 rounded-full hover:bg-black hover:text-white cursor-pointer fixed lg:bottom-12 botton-6 raight-6 lg:right-6 '>
         <Link to='hero' spy={true} offset={-100} smooth={true}>
           < FaArrowUp className="size-8" />
         </Link>
       </div>
+      
     </>
   )
 }
