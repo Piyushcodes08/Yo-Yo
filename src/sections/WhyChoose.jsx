@@ -19,9 +19,10 @@ const WhyChoose = () => {
   return (
     <section
       id='about'
-      className='w-full md:px-20 px-10 md:py-20 py-10 flex flex-col md:flex-row justify-center items-center gap-20 bg-cover bg-center'
-      style={{ backgroundImage: `url(${whyimg})` }}
+      className='w-full md:px-20 px-10 md:py-20 py-10 flex flex-col md:flex-row justify-center items-center gap-20 bg-cover '
+      style={{ backgroundImage: ` linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(${whyimg})` }}
     >
+       
       <div
   data-aos="zoom-in"
   className="flex flex-col justify-center items-center gap-10 bg-white/40 backdrop-blur-md p-10 rounded-xl md:w-[40%] w-full shadow-lg"
@@ -46,7 +47,7 @@ const WhyChoose = () => {
 
       <div data-aos="slide-up" data-aos-delay="200" className='md:w-[40%] w-full flex flex-col justify-center items-start gap-6 h-fit'>
         <h1 className='text-6xl text-white font-bold text-center'>Why Choose Us</h1>
-        <p className='text-2xl font-semibold text-white text-start'>
+        <p className='text-2xl font-light text-white text-start'>
           Step into Yo-Yo Hair Rap, where style meets comfort. We combine creativity, care, and expertise to give you a look you’ll love.
         </p>
         <div id="icon-list" className='flex flex-col justify-center items-start gap-4'>
@@ -70,7 +71,7 @@ const WhyChoose = () => {
             <FaAngleDoubleRight className='text-white size-6' />
             <h1 className='text-xl text-white font-semibold'>Affordable Pricing</h1>
           </div>
-          <button className='text-black px-10 py-4 bg-white hover:bg-[#a69f7d] hover:text-black rounded-xl font-semibold'>BOOK YOUR EXPERIENCE</button>
+          <button className='text-black px-10 py-4 bg-white hover:bg-[#a69f7d] hover:text-black rounded-xl font-bold '>BOOK YOUR EXPERIENCE</button>
         </div>
       </div>
     </section>

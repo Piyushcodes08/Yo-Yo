@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <section className='bg-slate-200 w-full md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center gap-6 border-[20px] border-[#a69f7d]'>
-        <h1 className="text-black font-bold text-5xl ">HAIR RAP BY <span className="italic text-[#a60f7d]">YO YO</span></h1>
+        <h1 className="text-black font-bold text-5xl ">HAIR RAP BY <span className=" text-[#a60f7d]">YO YO</span></h1>
         <p className="text-lg text-center font-semibold text-slate-600">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid error dolorem, corrupti rem deleniti expedita placeat. Dolorem velit obcaecati placeat.
         </p>
