@@ -29,7 +29,7 @@ const WhyChoose = () => {
 >
   <h1 className="text-4xl font-bold text-[#a69f7d]">🕒 WORKING HOURS</h1>
 
-  <div className="flex flex-col justify-center items-center gap-4">
+  <div className="flex flex-col justify-center items-center gap-3">
     <p className="text-xl text-black font-medium">SUNDAY — 10:00 AM to 8:00 PM</p>
     <p className="text-xl text-black font-medium">MONDAY — 10:00 AM to 8:00 PM</p>
     <p className="text-xl text-black font-medium">TUESDAY — 10:00 AM to 8:00 PM</p>
@@ -39,7 +39,7 @@ const WhyChoose = () => {
     <p className="text-xl text-black font-medium">SATURDAY — 10:00 AM to 8:00 PM</p>
   </div>
 
-  <button className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white mt-6 transition-all duration-300">
+  <button className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white mt-5 transition-all duration-300">
     BOOK YOUR SLOT
   </button>
 </div>
@@ -47,7 +47,7 @@ const WhyChoose = () => {
 
       <div data-aos="slide-up" data-aos-delay="200" className='md:w-[40%] w-full flex flex-col justify-center items-start gap-6 h-fit'>
         <h1 className='text-6xl text-white font-bold text-center'>Why Choose Us</h1>
-        <p className='text-2xl font-light text-white text-start'>
+        <p className='text-[20px] font-light text-white text-start'>
           Step into Yo-Yo Hair Rap, where style meets comfort. We combine creativity, care, and expertise to give you a look you’ll love.
         </p>
         <div id="icon-list" className='flex flex-col justify-center items-start gap-4'>
