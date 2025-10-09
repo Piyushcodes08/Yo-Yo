@@ -31,9 +31,9 @@ const Home = () => {
 
             <section
                 id="hero"
-                className="w-full bg-cover bg-bottom flex flex-col justify-center items-center text-center md:text-left"
+                className="w-full bg-right md:bg-center bg-cover bg-bottom flex flex-col justify-center items-center text-center md:text-left"
                 style={{
-                    backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${img3})`,
+                    backgroundImage: `linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(${img3})`,
                 }}
             >
                 {/* Hero content */}
