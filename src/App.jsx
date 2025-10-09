@@ -9,11 +9,14 @@ import Services from './sections/Services.jsx'
 import Gallery from './sections/Gallery.jsx'
 import Testimonial from './sections/Testimonial.jsx'
 
+
 const App = () => {
   return (
     <>
+    {/* <Booking/> */}
     <Header/>
     <Home/>
+    
     <WhyChoose/>
     <Pricing/>
     <Services/>

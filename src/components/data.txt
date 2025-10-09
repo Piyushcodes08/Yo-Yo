@@ -1,0 +1,105 @@
+ home page content
+
+ <div data-aos="zoom-in" id='image-box' className='md:w-[50%] w-full'>
+                    <img src={heroimg} alt={heroimg} className='rounded-xl w-full md:h-[700px] h-[500px]' />
+                </div>
+
+
+                import React from 'react'
+import react, { useEffect } from 'react'
+import { FaLocationDot } from 'react-icons/fa6'
+import { MdOutlinePhoneAndroid } from 'react-icons/md'
+import { FaHeadphones } from 'react-icons/fa6'
+import { MdEmail } from 'react-icons/md'
+import heroimg from "../assets/images/hero.jpg"
+import sissor from "../assets/images/sissor.png"
+import menshair from "../assets/images/menshair.png"
+import trimmer from "../assets/images/trimmer.png"
+import womenshair from "../assets/images/womenhair.png"
+import img3 from "../assets/images/img3.jpg"
+import Booking from '../components/Booking.jsx'
+import { RiTelegram2Fill } from "react-icons/ri";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+const Home = () => {
+
+    useEffect(() => {
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    }, []);
+    return (
+        <>
+        
+             <section
+                  id='hero'
+                  className='w-full md:px-20 px-10 md:py-20 py-10 flex flex-col md:flex-row justify-center items-center gap-20 bg-cover bg-bottom'
+                  style={{ backgroundImage: ` linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(${img3})` }}
+                >
+                <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
+                    <h1 data-aos="zoom-in" className='text-2xl text-white font-semibold pt-6 sm:pt-0'>
+                        WELCOME TO
+                    </h1>
+                    <h1 data-aos="zoom-in" className='text-6xl text-white font-bold'>Hair Rap By Yo Yo</h1>
+                    
+                    <div data-aos="slide-up" id='icon-list' className='flex flex-col justify-center items-start gap-6'>
+                        <div id="icon-box" className='flex justify-center items-center gap-3'>
+                            <FaLocationDot className='text-black size-6' />
+                            <h1 className='text-xl text-grey-800 font-semibold'>123 Main Street, Jaipur, Rajasthan 302001</h1>
+                        </div>
+                        <div id="icon-box" className='flex justify-center items-center gap-3'>
+                            <MdOutlinePhoneAndroid className='text-black size-6' />
+                            <h1 className='text-xl text-grey-800 font-semibold'>+ 91 637-114-9273</h1>
+                        </div>
+                        <div id="icon-box" className='flex justify-center items-center gap-3'>
+                            <MdEmail className='text-black size-6' />
+                            <h1 className='text-xl text-grey-800 font-semibold'>info@yoyohairrap.com</h1>
+                        </div>
+                        <div id="icon-box" className='flex justify-center items-center gap-3'>
+                            <FaHeadphones className='text-black size-6' />
+                            <h1 className='text-xl text-grey-800 font-semibold'>support@yoyohairrap.com</h1>
+                        </div>
+                    </div>
+                    <button data-aos="zoom-in" className='px-6 py-3 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white'>BOOK YOUR STYLE NOW</button>
+                </div>
+                <div data-aos="zoom-in" id='image-box' className='md:w-[50%] w-full'>
+                   
+                </div>
+                <div>
+  <Booking icon={<RiTelegram2Fill/>}/>
+                </div>
+               
+            </section>
+            <section className='grid grid-cols-1 md:grid-cols-4 gap-10 justify-center items-start w-full md:px-[120px] px-10 py-10'>
+                
+                <div data-aos="zoom-in" data-aos-delay="200" className='flex flex-col justify-center items-center gap-4'>
+                    <img src={sissor} alt={sissor} className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
+                    <h1 className='text-2xl text-black font-semibold capitalize'> Classic Haircut</h1>
+                    <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-[#a69f7d] hover:text-black cursor-pointer '>Explore More</button>
+                </div>
+                 <div data-aos="zoom-in" data-aos-delay="200" className='flex flex-col justify-center items-center gap-4'>
+                    <img src={menshair} alt={menshair} className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
+                    <h1 className='text-2xl text-black font-semibold capitalize'>Men’s Grooming</h1>
+                    <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-[#a69f7d] hover:text-black cursor-pointer '>Explore More</button>
+                </div>
+                 <div data-aos="zoom-in" data-aos-delay="200" className='flex flex-col justify-center items-center gap-4'>
+                    <img src={trimmer} alt={trimmer} className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
+                    <h1 className='text-2xl text-black font-semibold capitalize'>Trimmer Styling</h1>
+                    <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-[#a69f7d] hover:text-black cursor-pointer '>Explore More</button>
+                </div>
+                 <div data-aos="zoom-in" data-aos-delay="200" className='flex flex-col justify-center items-center gap-4'>
+                    <img src={womenshair} alt={womenshair} className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
+                    <h1 className='text-2xl text-black font-semibold capitalize'>Women’s Hair Styling</h1>
+                    <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-[#a69f7d] hover:text-black cursor-pointer '>Explore More</button>
+                </div>
+            </section>
+        </>
+    )
+}
+
+export default Home
