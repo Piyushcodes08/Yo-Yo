@@ -48,7 +48,7 @@ const Booking = ({ icon }) => {
         {/* Start Date */}
         <div className="flex items-center gap-3 border border-black p-3 rounded-lg shadow-inner">
           <input
-            type="text"
+            type="email"
             placeholder="E-mail*"
             className="w-full outline-none text-gray-800 text-lg placeholder-black"
           />
@@ -58,7 +58,7 @@ const Booking = ({ icon }) => {
         {/* End Date */}
         <div className="flex items-center gap-3 border border-black p-3 rounded-lg shadow-inner">
           <input
-            type="text"
+            type="number"
             placeholder="Phone*"
             className="w-full outline-none text-gray-800 text-lg placeholder-black"
           />
