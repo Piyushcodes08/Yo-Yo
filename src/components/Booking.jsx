@@ -27,7 +27,7 @@ const Booking = ({ icon }) => {
       data-aos="zoom-in"
         action=""
         className="
-          bg-white/40 backdrop-blur-md rounded-[2rem] 
+          bg-white/70 backdrop-blur-md rounded-[2rem] 
           grid gap-3 p-4 sm:p-5 md:p-6 
           shadow-md
           md:grid-cols-[1fr_1fr_max-content_1fr_max-content]

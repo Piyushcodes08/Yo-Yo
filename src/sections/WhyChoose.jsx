@@ -25,9 +25,9 @@ const WhyChoose = () => {
        
       <div
   data-aos="zoom-in"
-  className="flex flex-col justify-center items-center gap-10 bg-white/40 backdrop-blur-md p-10 rounded-xl md:w-[40%] w-full shadow-lg"
+  className="flex flex-col justify-center items-center gap-10 bg-white/70 backdrop-blur-md p-10 rounded-xl md:w-[40%] w-full shadow-lg"
 >
-  <h1 className="text-4xl font-bold text-[#a69f7d]">🕒 WORKING HOURS</h1>
+  <h1 className="text-4xl font-bold text-[#a69f7d]"> WORKING HOURS</h1>
 
   <div className="flex flex-col justify-center items-center gap-3">
     <p className="text-xl text-black font-medium">SUNDAY — 10:00 AM to 8:00 PM</p>
