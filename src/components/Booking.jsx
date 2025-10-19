@@ -27,7 +27,7 @@ const Booking = ({ icon }) => {
       data-aos="zoom-in"
         action=""
         className="
-          bg-white/70 backdrop-blur-md rounded-[2rem] 
+          bg-white backdrop-blur-md rounded-[1rem] 
           grid gap-3 p-4 sm:p-5 md:p-6 
           shadow-md
           md:grid-cols-[1fr_1fr_max-content_1fr_max-content]
@@ -39,7 +39,7 @@ const Booking = ({ icon }) => {
           <input
             type="text"
             placeholder="Full Name*"
-            className="w-full outline-none text-gray-800 text-lg placeholder-black"
+            className="w-full outline-none text-gray-800 text-lg placeholder-black "
           />
           <SiNamecheap className="text-black text-2xl" />
         </div>
